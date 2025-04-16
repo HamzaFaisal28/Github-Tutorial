@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
 namespace Github_Tutorial.Controllers
 {
     public class TestController : Controller
@@ -13,5 +12,12 @@ namespace Github_Tutorial.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public ActionResult Test()
+        {
+            return View();
+        }
+
     }
 }
